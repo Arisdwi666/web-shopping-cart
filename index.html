@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laptop Shop</title>
+<!-- LInk To CSS -->
+<link rel="stylesheet"
+href="css/style.css">
+<!-- Box Icons -->
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<script src="JS/jquery-3.5.1.min.js"></script>
+<script src="JS/multislider.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Arisuu <span>X.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#new">New Arrival</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+              <!--Shopping cart-->
+              <div class="shopping-cart">
+                <div class="sum-prices">
+                    <!--Shopping cart logo-->
+                    <i
+                        class='bx bxs-cart'></i>
+                    ></i>
+                    <!--The total prices of products in the shopping cart -->
+                    <h6 id="sum-prices"></h6>
+                </div>
+            </div>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1><Span>Make</Span>Your Comfort <br> Is Our <span>Happiness</span></h1>
+            <p>Welcome to my laptop shop website,sorry if it's not completed. <br> I hope you can shop comfortably and quiet, Happy Shopping.</p>
+            <a href="shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- Shop -->
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>New Arrival</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- Content -->
+        <div class="shop-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/acer_nitro5.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3 class="productName">Acer Predator Nitro 5</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span class="priceValue">Rp. 16.500.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/msi_katana.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>MSI Katana GF66</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 16.699.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/rog_strix.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>ROG Strix G531GT</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 13.599.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/hp_pavilion.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>HP Pavilion Gaming 15</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 15.799.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/asus_tuf.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Asus Tuf FX505DT</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 11.699.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/legion.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Lenovo Legion 5 Pro</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 22.199.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+        </div>
+    </section>
+    <!-- New Arrival -->
+    <section class="new" id="new">
+        <div class="heading">
+            <span>New Collection</span>
+            <h2>Best Selling</h2>
+        </div>
+        <!-- Content -->
+        <div class="new-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="image/lenovo_ideapad.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Lenovo IdeaPad Gaming 3</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 12.999.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+             <!-- Box 2 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="image/razer_blade.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Razer Blade Gaming 15</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 15.699.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+             <!-- Box 3 -->
+             <div class="box">
+                <div class="box-img">
+                    <img src="image/samsung_chromebook.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Samsung Chromebook 13</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                </div>
+                <span>Rp. 21.999.000</span>
+                <i class='bx bx-cart' ></i>
+            </div>
+        </div>
+    </section>
+     <!-- About -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>Laptop is an important part <br>to work and study</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat praesentium. Quas quis, omnis repellendus reiciendis eius fuga quidem eum illum veniam explicabo excepturi fugit distinctio sequi quisquam quaerat dignissimos! Beatae delectus numquam perspiciatis.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ex aut repellat ipsum possimus delectus cum quaerat rerum?</p>
+            <a href="#shop" class="btn">Learn More.</a>
+        </div>
+    </section>
+     <!-- Contact -->
+     <section class="contact" id="contact">
+        <div class="heading">
+            <span>Contact</span>
+            <h2>My Contact</h2>
+        </div>
+        <div class="contact-container">
+            <img src="image/whatsapp.png" alt="">
+            <img src="image/facebook.jpg" alt="">
+            <img src="image/instagram.png" alt="">
+            <img src="image/twitter.png" alt="">
+            <img src="image/gmail.png" alt="">
+            <img src="image/discord.png" alt="">
+        </div>
+    </section>
+    <section class="newsletter" id="contact">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="news-box">
+            <input type="text" placeholder="Enter Your Email...">
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+    </section>
+    </section>
+    <div class="copyright">
+        <p>&#169; Aris Dwi Wahyudi 2021 All Right Reserved.</p>
+    </div>
+    <!-- Link To JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
